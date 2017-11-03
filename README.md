@@ -2,9 +2,8 @@
 
 # Inamo
 
-This README outlines the details of collaborating on this Ember addon.
+This README outlines the details of collaborating on this Angular addon.
 
-[![Introduction to Coin Clicks](https://i.vimeocdn.com/video/558765981_640x360.jpg)](https://vimeo.com/157481331)
 
 ## What Does This Add-On Do?
 * Currently not into live productions but it's an app module built for shaping the futuristic models of Restaurants and will be updated frequently .
