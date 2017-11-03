@@ -8,7 +8,6 @@ import { Dish } from '../shared/dish';
   styleUrls: ['./menu.component.scss']
 })
 
-
 export class MenuComponent implements OnInit {
 
   dishes: Dish[] = [
@@ -39,8 +38,9 @@ export class MenuComponent implements OnInit {
                            category: 'dessert',
                            label:'',
                            price:'2.99',
-                           description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms bhai bhi hai'                        }
-                        ];  constructor() { }
+                           description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms '                        }
+                        ];
+  constructor() { }
 
   ngOnInit() {
   }
