@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
 import { Dish } from '../shared/dish';
+import { DISHES } from '../shared/dishes';
 
 const DISHES: Dish[]= [
                        {
@@ -42,13 +42,18 @@ const DISHES: Dish[]= [
 
 export class MenuComponent implements OnInit {
 
-  dishes: Dish[] = DISHES;
+  // dishes: Dish[] = DISHES;
 
-  selectedDish = DISHES[0];
+  //selectedDish = Dish;
 
+  dishes = DISHES;
+
+  selectedDish: Dish;
   constructor() { }
 
   ngOnInit() {
   }
-
+  onSelect(dish: Dish) {
+     this.selectedDish = dish;
+   }
 }
