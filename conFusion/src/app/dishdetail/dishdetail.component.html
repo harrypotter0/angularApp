@@ -1,12 +1,7 @@
-<div class="container"
-     fxLayout="row"
-     fxLayout.sm="column"
-     fxLayout.xs="column"
-     fxLayoutAlign.gt-md="space-around center"
-     fxLayoutGap="10px"
-     fxLayoutGap.xs="0">
+<div class="container" fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign.gt-md="space-around center"
+  fxLayoutGap="10px" fxLayoutGap.xs="0">
 
-  <div flex="40">
+  <div fxFlex="40">
     <div fxFlex *ngIf="dish">
       <md-card>
         <md-card-header>
@@ -27,7 +22,7 @@
     </div>
   </div>
 
-  <div flex="40" layout="row" layout-align="center start">
+  <div fxFlex="40">
     <div fxFlex *ngIf="dish">
       <md-list>
         <h3 md-line> Comments </h3>
@@ -39,5 +34,5 @@
       </md-list>
     </div>
   </div>
-
+  
 </div>
